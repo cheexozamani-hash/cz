@@ -8,6 +8,7 @@ body{
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
+    height:100%;
 }
 
 /* Header / Navigation */
@@ -121,3 +122,4 @@ footer{
     header li a{ font-size: 14px; }
     .social-icon{ font-size: 22px; margin: 0 6px; }
 }
+
