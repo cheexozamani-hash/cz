@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Cheexo Zamani</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Cheexo Zamani</a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="contact" class="about">
+      <h1>Contact Me</h1>
+      <p>If you'd like to get in touch, you can use any of the methods below or send a quick message with the form.</p>
+
+      <div class="contact-methods">
+        <a href="tel:+2348023165378" class="social-icon phone" title="Call +2348023165378"><i class="fas fa-phone"></i></a>
+        <a href="https://wa.me/2348023165378" target="_blank" class="social-icon whatsapp" title="WhatsApp +2348023165378"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:your.cheexozamani@gmail.com" class="social-icon gmail" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/cheexo_thelamp/" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <form class="contact-form" action="mailto:your.cheexozamani@gmail.com" method="get" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <div style="margin-top:10px;">
+          <button type="submit">Send (opens email client)</button>
+          <button type="reset" style="margin-left:8px;">Reset</button>
+        </div>
+      </form>
+
+      <p style="margin-top:12px; font-size:0.95rem; color:#cfcfcf;">Note: The form uses your email client (mailto). For a server-based form, connect to a backend or use a service like Formspree.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p style="color:#cfcfcf;">© <strong>Muhammad Misbahu Hassan</strong></p>
+  </footer>
+</body>
+</html>
